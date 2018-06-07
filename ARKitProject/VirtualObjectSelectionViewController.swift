@@ -37,19 +37,17 @@ class VirtualObjectSelectionViewController: UIViewController, UITableViewDataSou
 		case 0:
 			return Candle()
 		case 1:
-			return Cup()
-		case 2:
 			return Vase()
-		case 3:
+		case 2:
 			return Lamp()
-		case 4:
+		case 3:
 			return Chair()
 		default:
-			return Cup()
+			return Candle()
 		}
 	}
 
-	static let COUNT_OBJECTS = 5
+	static let COUNT_OBJECTS = 4
 
 	// MARK: - UITableViewDelegate
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
