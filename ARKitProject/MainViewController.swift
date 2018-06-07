@@ -257,6 +257,7 @@ class MainViewController: UIViewController {
 			self.setupFocusSquare()
 //			self.loadVirtualObject()
 			self.restartPlaneDetection()
+            self.resetVirtualObject()
 
 			self.restartExperienceButton.setImage(#imageLiteral(resourceName: "restart"), for: [])
 
@@ -272,12 +273,16 @@ class MainViewController: UIViewController {
 		guard sceneView.session.currentFrame != nil else { return }
 		focusSquare?.isHidden = true
 
-		let imagePlane = SCNPlane(width: sceneView.bounds.width / 6000, height: sceneView.bounds.height / 6000)
-		imagePlane.firstMaterial?.diffuse.contents = sceneView.snapshot()
-		imagePlane.firstMaterial?.lightingModel = .constant
-
-		let planeNode = SCNNode(geometry: imagePlane)
-		sceneView.scene.rootNode.addChildNode(planeNode)
+//        let imagePlane = SCNPlane(width: sceneView.bounds.width / 6000, height: sceneView.bounds.height / 6000)
+//        imagePlane.firstMaterial?.diffuse.contents = sceneView.snapshot()
+//        imagePlane.firstMaterial?.lightingModel = .constant
+//
+//        let planeNode = SCNNode(geometry: imagePlane)
+//        sceneView.scene.rootNode.addChildNode(planeNode)
+        
+        UIImageWriteToSavedPhotosAlbum(sceneView.snapshot(), nil, nil, nil)
+        let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        textManager.showAlert(title: "Snapshot", message: "Saved!", actions: [okAction])
 
 		focusSquare?.isHidden = false
 	}
