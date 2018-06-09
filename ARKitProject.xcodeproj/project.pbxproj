@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1A20788D20CA237D00D484CF /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A20788C20CA237D00D484CF /* Duck.swift */; };
+		1AB5766520CBD95900A5F1F6 /* Wineglass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB5766420CBD95900A5F1F6 /* Wineglass.swift */; };
+		1AB5766720CBE9E900A5F1F6 /* Sofa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB5766620CBE9E900A5F1F6 /* Sofa.swift */; };
+		1AB5766920CBEB7500A5F1F6 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB5766820CBEB7500A5F1F6 /* Table.swift */; };
+		1AB5766D20CBEEC400A5F1F6 /* Roulette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB5766C20CBEEC400A5F1F6 /* Roulette.swift */; };
 		3929C48C1E89EC2C00E00B60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929C48B1E89EC2C00E00B60 /* AppDelegate.swift */; };
 		3929C48E1E89EC2C00E00B60 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929C48D1E89EC2C00E00B60 /* MainViewController.swift */; };
 		3929C4911E89EC2C00E00B60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3929C48F1E89EC2C00E00B60 /* Main.storyboard */; };
@@ -37,6 +41,10 @@
 /* Begin PBXFileReference section */
 		11063F3B1EBE651B0033EE6D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1A20788C20CA237D00D484CF /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		1AB5766420CBD95900A5F1F6 /* Wineglass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wineglass.swift; sourceTree = "<group>"; };
+		1AB5766620CBE9E900A5F1F6 /* Sofa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sofa.swift; sourceTree = "<group>"; };
+		1AB5766820CBEB7500A5F1F6 /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		1AB5766C20CBEEC400A5F1F6 /* Roulette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Roulette.swift; sourceTree = "<group>"; };
 		3929C48B1E89EC2C00E00B60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3929C48D1E89EC2C00E00B60 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3929C4901E89EC2C00E00B60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -130,6 +138,10 @@
 				A3D672F21EF0E84D00110E48 /* Lamp.swift */,
 				A3D672F41EF0E8DF00110E48 /* Vase.swift */,
 				1A20788C20CA237D00D484CF /* Duck.swift */,
+				1AB5766420CBD95900A5F1F6 /* Wineglass.swift */,
+				1AB5766620CBE9E900A5F1F6 /* Sofa.swift */,
+				1AB5766820CBEB7500A5F1F6 /* Table.swift */,
+				1AB5766C20CBEEC400A5F1F6 /* Roulette.swift */,
 			);
 			path = "Virtual Objects";
 			sourceTree = "<group>";
@@ -229,19 +241,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				39C0B9511E9C63CB003FCA0C /* HitTestVisualization.swift in Sources */,
+				1AB5766D20CBEEC400A5F1F6 /* Roulette.swift in Sources */,
 				A35A11CF1EF4EB070072FE74 /* ScieneView+Extension.swift in Sources */,
 				3929C48E1E89EC2C00E00B60 /* MainViewController.swift in Sources */,
 				C41366B91EB80DD400EC054A /* TextManager.swift in Sources */,
 				39C0B95A1E9C6B1F003FCA0C /* Utilities.swift in Sources */,
 				392BB82C1EA19A7C00FBBAC8 /* Plane.swift in Sources */,
 				A3D672F11EF0E81B00110E48 /* Chair.swift in Sources */,
+				1AB5766520CBD95900A5F1F6 /* Wineglass.swift in Sources */,
 				A3D672F51EF0E8DF00110E48 /* Vase.swift in Sources */,
 				3987BEDC1E9E057F00167FAC /* Gesture.swift in Sources */,
 				C4E87DD91EA6B40F002117D6 /* VirtualObject.swift in Sources */,
 				39D4A8BE1EA1AF530006EC65 /* PlaneDebugVisualization.swift in Sources */,
 				39C0B9591E9C6B1F003FCA0C /* SettingsViewController.swift in Sources */,
+				1AB5766720CBE9E900A5F1F6 /* Sofa.swift in Sources */,
 				C490DAC41E9AB63400210960 /* VirtualObjectSelectionViewController.swift in Sources */,
 				C42A71BD1E9C0AF200944367 /* FocusSquare.swift in Sources */,
+				1AB5766920CBEB7500A5F1F6 /* Table.swift in Sources */,
 				3929C48C1E89EC2C00E00B60 /* AppDelegate.swift in Sources */,
 				A3D672EF1EF0E80200110E48 /* Candle.swift in Sources */,
 				1A20788D20CA237D00D484CF /* Duck.swift in Sources */,
