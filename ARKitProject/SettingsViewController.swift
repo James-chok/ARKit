@@ -14,7 +14,8 @@ enum Setting: String {
     static func registerDefaults() {
         UserDefaults.standard.register(defaults: [
             Setting.ambientLightEstimation.rawValue: true,
-            Setting.dragOnInfinitePlanes.rawValue: true
+            Setting.dragOnInfinitePlanes.rawValue: true,
+            Setting.scaleWithPinchGesture.rawValue: true
         ])
     }
 }
